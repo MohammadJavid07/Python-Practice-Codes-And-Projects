@@ -56,3 +56,17 @@ print(set_a)
 popped_element = set_a.pop()
 print(popped_element)
 print(set_a)
+
+#Removing all elements from a set using clear
+set_a.clear()
+print(set_a)
+
+#Creating a set from a list (removes duplicates)
+my_list = [1, 2, 2, 3, 4, 4, 5]
+my_set_from_list = set(my_list) 
+print(my_set_from_list)
+
+#Creating a set from a string (removes duplicates)
+my_string = "hello"
+my_set_from_string = set(my_string)
+print(my_set_from_string)
